@@ -1,6 +1,6 @@
-import {Route,Link} from "react-router-dom"; /*for navigation */
-import Homepage from "./Pages/Homepage";/*for homepage */
-import Chatpage from "./Pages/Chatpage";
+import {Route} from "react-router-dom"; /*for navigation */
+import Homepage     from "./pages/homePage"; /*for homepage */
+import Chatpage     from "./pages/chatPage"; /*for chatpage */
 import "./App.css";
 /* exact is used for perfect address*/
 function App() {
@@ -11,5 +11,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

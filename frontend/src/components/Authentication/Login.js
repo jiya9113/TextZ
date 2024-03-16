@@ -6,7 +6,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useToast } from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
-/*import { ChatState } from "../../Context/ChatProvider";*/
+import { ChatState } from "../../context/chatProvider";
 
 const Login = () => {
   const [show, setShow] = useState(false);
@@ -114,7 +114,7 @@ const Login = () => {
         width="100%"
         onClick={() => {
           setEmail("guest@example.com");
-          setPassword("123456");
+          setPassword("12345");
         }}
       >
         Get Guest User Credentials
@@ -122,5 +122,16 @@ const Login = () => {
     </VStack>
   );
 };
-
 export default Login;
+
+
+
+// import React from 'react'
+// const Login = () => {
+//   return (
+//     <div>
+//       login
+//     </div>
+//   )
+// }
+// export default Login

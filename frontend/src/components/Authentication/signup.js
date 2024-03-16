@@ -10,17 +10,14 @@ import { useHistory } from "react-router";
 const Signup = () => {
   const [show, setShow] = useState(false);
   const handleClick = () => setShow(!show);
-
   const toast = useToast();
   const history = useHistory();
-
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [confirmpassword, setConfirmpassword] = useState();
   const [password, setPassword] = useState();
   const [pic, setPic] = useState();
   const [picLoading, setPicLoading] = useState(false);
-
   const submitHandler = async () => {
     setPicLoading(true);
     if (!name || !email || !password || !confirmpassword) {
@@ -98,6 +95,11 @@ const Signup = () => {
       return;
     }
     console.log(pics);
+    // import { Cloudinary } from "@cloudinary/url-gen";
+
+    // const App = () => {
+    //   const cld = new Cloudinary({ cloud: { cloudName: "textz" } });
+    // };
     if (pics.type === "image/jpeg" || pics.type === "image/png") {
       const data = new FormData();
       data.append("file", pics);
@@ -129,7 +131,6 @@ const Signup = () => {
       return;
     }
   };
-
   return (
     <VStack spacing="5px">
       <FormControl id="first-name" isRequired>
@@ -204,5 +205,18 @@ const Signup = () => {
     </VStack>
   );
 };
-
 export default Signup;
+
+// import React from 'react';
+// import { VStack } from "@chakra-ui/layout";/*ui layout feature */
+// import { FormLabel } from '@chakra-ui/react';
+// const signup = () => {
+//   return (
+//     <VStack spacing="5px">
+//       <FormControl id="first-name" isRequired>
+//         <FormLabel></FormLabel>
+//       </FormControl>
+//     </VStack>
+//   );
+// }
+// export default signup
