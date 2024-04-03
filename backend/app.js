@@ -13,14 +13,9 @@ const messageRouter = require("./routes/message-routes");
 
 const app = express();
 
-const corsConfig = {
-    origin : process.env.BASE_URL,
-    credentials : true
-};
-
 const PORT = process.env.PORT || 8000;
 
-app.use(cors(corsConfig));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended : true }));
 
@@ -38,7 +33,7 @@ const server = app.listen(PORT, ()=>{
 const io = socketIO(server, {
   pingTimeout : 60000,
   cors : {
-    origin : process.env.BASE_URL
+    origin : ''
   }
 });
 
