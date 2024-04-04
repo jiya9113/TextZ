@@ -22,16 +22,16 @@ Access the live application [here](https://text-z.netlify.app). or type => https
 ![Search Users](images/search.png)
 
 ## One to One Chat
-![one to one chat](images/one to one.png)
+![one to one chat](images/one-to-one.png)
 
 ## Group Chat
-![Group Chat](images/group chat.png)
+![Group Chat](images/group-chat.png)
 
 ## Create Group
-![Create Group](images/create group.png)
+![Create Group](images/create-group.png)
 
 ## Edit Group
-![Edit group](images/edit group.png)
+![Edit group](images/edit-group.png)
 
 ## Features
 - **User Authentication:** Secure registration and login system.
