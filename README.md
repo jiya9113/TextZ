@@ -9,6 +9,15 @@ Access the live application [here](https://text-z.netlify.app). or type => https
 ## Loading
 ![Loading](images/loading.png)
 
+## Login Page
+![Login](images/login.png)
+
+## Signup Page
+![Signup](images/Signup.png)
+
+## Welcome Page
+![Welcome Page](images/welcome.png)
+
 ## Features
 - **User Authentication:** Secure registration and login system.
 - **Profile Management:** Update profile information, including bio and name.
