@@ -4,7 +4,7 @@
 TextZ is a real-time chat application developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It facilitates various functionalities including user authentication, profile management, one-to-one messaging, group chats, and more. This README provides an overview of the project, its features, and how to set it up locally.
 
 ## Live Link
-Access the live application [here](https://text-z.netlify.app).
+Access the live application [here](https://text-z.netlify.app). or type => https://text-z.netlify.app
 
 ## Features
 - **User Authentication:** Secure registration and login system.
