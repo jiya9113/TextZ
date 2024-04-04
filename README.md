@@ -49,3 +49,39 @@ To run the application locally:
    # Install backend dependencies
    cd ../backend
    npm install
+
+## Setting up Environment Variables
+1. Create a `.env` file in both the frontend and backend directories.
+2. Add the necessary environment variables:
+   - In the backend `.env` file, include variables such as `DATABASE_URI` and `JWT_SECRET`.
+   - In the frontend `.env` file, include variables such as `REACT_APP_API_URL` for the backend API URL.
+
+## Starting the Backend Server
+```bash
+# Navigate to the backend directory
+cd backend
+
+# Start the backend server
+npm node app.js
+
+## Starting the Frontend Development Server
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Start the frontend development server
+npm start
+
+## Contributors
+- Jiya (ID: 2110990701)
+- Jashan (ID: 2110990669)
+
+## Contributing
+Contributions are welcome! Feel free to open issues or pull requests on [GitHub](https://github.com/Jashan-panwa/TextZ).
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+## Acknowledgments
+Special thanks to the developers of the libraries and tools used in this project, including React.js, Node.js, Express.js, MongoDB, and Socket.IO.
+
