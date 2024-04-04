@@ -48,7 +48,7 @@ To run the application locally:
 
    # Install backend dependencies
    cd ../backend
-   npm install
+   npm install```
 
 
 ## Setting up Environment Variables
@@ -58,8 +58,7 @@ To run the application locally:
    - In the frontend `.env` file, include variables such as `REACT_APP_API_URL` for the backend API URL.
 
 ## Starting the Backend Server
-```bash
-  # Navigate to the backend directory
+  ```bash # Navigate to the backend directory`
   cd backend
 
    # Start the backend server
