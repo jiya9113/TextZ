@@ -6,16 +6,14 @@ TextZ is a real-time chat application developed using the MERN stack (MongoDB, E
 ## Live Link
 Access the live application [here](https://text-z.netlify.app). or type => https://text-z.netlify.app
 
-### Project Dependencies
+## Project Dependencies
 
 - **@reduxjs/toolkit**: ^2.2.3
 - **react-redux**: ^9.1.0
 - **react-toastify**: ^10.0.4
 - **redux**: ^5.0.1
 
-### Frontend Dependencies
-
-![Frontend Dependencies](frontend_dependencies.png)
+## Frontend Dependencies
 
 - **@chakra-ui/react**: ^2.8.2
 - **@emoji-mart/data**: ^1.1.2
@@ -45,8 +43,6 @@ Access the live application [here](https://text-z.netlify.app). or type => https
 - **web-vitals**: ^2.1.4
 
 ### Backend Dependencies
-
-![Backend Dependencies](backend_dependencies.png)
 
 - **bcrypt**: ^5.1.1
 - **bcryptjs**: ^2.4.3
