@@ -68,12 +68,13 @@ npm node app.js
 
 
 ## Starting the Frontend Development Server
-   ```bash
-   # Navigate to the frontend directory
+  <pre><code>bash
+ # Navigate to the frontend directory
    cd frontend
 
    # Start the frontend development server
    npm start
+</code></pre>
 
 ## Contributors
 - Jiya (ID: 2110990701)
