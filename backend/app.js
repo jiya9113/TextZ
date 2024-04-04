@@ -33,7 +33,7 @@ const server = app.listen(PORT, ()=>{
 const io = socketIO(server, {
   pingTimeout : 60000,
   cors : {
-    origin : ''
+    origin : '*'
   }
 });
 
