@@ -72,7 +72,7 @@ npm node app.js
  # Navigate to the frontend directory
    cd frontend
 
- # Start the frontend development server
+# Start the frontend development server
    npm start
 </code></pre>
 
