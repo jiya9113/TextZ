@@ -42,7 +42,7 @@ Access the live application [here](https://text-z.netlify.app). or type => https
 - **socket.io-client**: ^4.7.4
 - **web-vitals**: ^2.1.4
 
-### Backend Dependencies
+## Backend Dependencies
 
 - **bcrypt**: ^5.1.1
 - **bcryptjs**: ^2.4.3
