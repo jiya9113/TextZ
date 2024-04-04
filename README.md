@@ -48,7 +48,8 @@ To run the application locally:
 
    # Install backend dependencies
    cd ../backend
-   npm install```
+   npm install
+
 
 ## Setting up Environment Variables
 1. Create a `.env` file in both the frontend and backend directories.
