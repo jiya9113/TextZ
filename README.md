@@ -8,10 +8,17 @@ Access the live application [here](https://text-z.netlify.app). or type => https
 
 ## Project Dependencies
 
-- **@reduxjs/toolkit**: ^2.2.3
-- **react-redux**: ^9.1.0
-- **react-toastify**: ^10.0.4
-- **redux**: ^5.0.1
+```
+Project Dependencies/
+│
+├── @reduxjs/toolkit: ^2.2.3
+│
+├── react-redux: ^9.1.0
+│
+├── react-toastify: ^10.0.4
+│
+└── redux: ^5.0.1
+```
 
 ## Frontend Dependencies
 ```
@@ -69,47 +76,34 @@ Frontend Dependencies/
 │
 └── web-vitals: ^2.1.4
 ```
-- **@chakra-ui/react**: ^2.8.2
-- **@emoji-mart/data**: ^1.1.2
-- **@emoji-mart/react**: ^1.1.1
-- **@emotion/react**: ^11.11.4
-- **@emotion/styled**: ^11.11.0
-- **@mui/material**: ^5.15.12
-- **@react-oauth/google**: ^0.12.1
-- **@testing-library/jest-dom**: ^5.17.0
-- **@testing-library/react**: ^13.4.0
-- **@testing-library/user-event**: ^13.5.0
-- **axios**: ^1.6.7
-- **emoji-mart**: ^5.5.2
-- **framer-motion**: ^11.0.8
-- **gapi-script**: ^1.2.0
-- **react**: ^18.2.0
-- **react-dom**: ^18.2.0
-- **react-icons**: ^5.0.1
-- **react-loading-skeleton**: ^3.4.0
-- **react-redux**: ^9.1.0
-- **react-router-dom**: ^6.22.0
-- **react-scripts**: 5.0.1
-- **react-scrollable-feed**: ^2.0.1
-- **react-toastify**: ^10.0.4
-- **redux**: ^5.0.1
-- **socket.io-client**: ^4.7.4
-- **web-vitals**: ^2.1.4
 
 ## Backend Dependencies
 
-- **bcrypt**: ^5.1.1
-- **bcryptjs**: ^2.4.3
-- **body-parser**: ^1.20.2
-- **cors**: ^2.8.5
-- **dotenv**: ^16.4.5
-- **express**: ^4.18.3
-- **google-auth-library**: ^9.6.3
-- **jsonwebtoken**: ^9.0.2
-- **mongodb**: ^6.4.0
-- **mongoose**: ^8.2.0
-- **socket.io**: ^4.7.4
-
+```
+Backend Dependencies/
+│
+├── bcrypt: ^5.1.1
+│
+├── bcryptjs: ^2.4.3
+│
+├── body-parser: ^1.20.2
+│
+├── cors: ^2.8.5
+│
+├── dotenv: ^16.4.5
+│
+├── express: ^4.18.3
+│
+├── google-auth-library: ^9.6.3
+│
+├── jsonwebtoken: ^9.0.2
+│
+├── mongodb: ^6.4.0
+│
+├── mongoose: ^8.2.0
+│
+└── socket.io: ^4.7.4
+```
 
 ## Loading
 ![Loading](images/loading.png)
