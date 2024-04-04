@@ -59,11 +59,12 @@ To run the application locally:
 
 ## Starting the Backend Server
 ```bash
-# Navigate to the backend directory
-cd backend
+  # Navigate to the backend directory
+  cd backend
 
-# Start the backend server
-npm node app.js```
+   # Start the backend server
+   npm node app.js
+
 
 ## Starting the Frontend Development Server
 ```bash
@@ -71,7 +72,7 @@ npm node app.js```
 cd frontend
 
 # Start the frontend development server
-npm start```
+npm start
 
 ## Contributors
 - Jiya (ID: 2110990701)
