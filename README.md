@@ -48,7 +48,7 @@ To run the application locally:
 
    # Install backend dependencies
    cd ../backend
-   npm install
+   npm install```
 
 ## Setting up Environment Variables
 1. Create a `.env` file in both the frontend and backend directories.
@@ -62,7 +62,7 @@ To run the application locally:
 cd backend
 
 # Start the backend server
-npm node app.js
+npm node app.js```
 
 ## Starting the Frontend Development Server
 ```bash
@@ -70,7 +70,7 @@ npm node app.js
 cd frontend
 
 # Start the frontend development server
-npm start
+npm start```
 
 ## Contributors
 - Jiya (ID: 2110990701)
