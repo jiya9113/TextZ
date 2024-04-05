@@ -88,7 +88,7 @@ Backend Dependencies/
 │
 ├── body-parser: ^1.20.2
 │
-├── cors: ^2.8.5
+├── cors: ^2.8.5          #to allow request from another server
 │
 ├── dotenv: ^16.4.5
 │
