@@ -82,11 +82,11 @@ Frontend Dependencies/
 ```
 Backend Dependencies/
 │
-├── bcrypt: ^5.1.1    #it uses c++ for encryption
+├── bcrypt: ^5.1.1                #it uses c++ for encryption
 │
-├── bcryptjs: ^2.4.3   #it uses js for encryption
+├── bcryptjs: ^2.4.3              #it uses js for encryption
 │
-├── body-parser: ^1.20.2
+├── body-parser: ^1.20.2          #it is a middelware used for correcting format, majoritly to json
 │
 ├── cors: ^2.8.5                  #to allow request from another server
 │
