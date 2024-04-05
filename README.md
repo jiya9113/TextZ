@@ -15,9 +15,9 @@ Project Dependencies/
 │
 ├── react-redux: ^9.1.0       #useselector , use dispatch
 │
-├── react-toastify: ^10.0.4
+├── react-toastify: ^10.0.4   # used to show messages , it is a library for ui
 │
-└── redux: ^5.0.1             #used for statemangment
+└── redux: ^5.0.1             #used for state mangment
 ```
 
 ## Frontend Dependencies
@@ -26,51 +26,51 @@ Frontend Dependencies/
 │
 ├── @chakra-ui/react: ^2.8.2  #framework for frontend
 │
-├── @emoji-mart/data: ^1.1.2
+├── @emoji-mart/data: ^1.1.2         #emojies in chat , emojie picker for the web
 │
-├── @emoji-mart/react: ^1.1.1
+├── @emoji-mart/react: ^1.1.1 #react wraper for emojie mart
 │
-├── @emotion/react: ^11.11.4
+├── @emotion/react: ^11.11.4  #styling in react
 │
-├── @emotion/styled: ^11.11.0
+├── @emotion/styled: ^11.11.0       #styled api for @emotion/react
 │
-├── @mui/material: ^5.15.12
+├── @mui/material: ^5.15.12         #ui library, for google material 
 │
-├── @testing-library/jest-dom: ^5.17.0
+├── @testing-library/jest-dom: ^5.17.0 
 │
 ├── @testing-library/react: ^13.4.0
 │
 ├── @testing-library/user-event: ^13.5.0
 │
-├── axios: ^1.6.7                    #used for getting data inside frontend
+├── axios: ^1.6.7                    #used for requesting data and making api calls
 │
-├── emoji-mart: ^5.5.2
+├── emoji-mart: ^5.5.2               #for emojies picker
 │
-├── framer-motion: ^11.0.8
+├── framer-motion: ^11.0.8           #animation
 │
 ├── react: ^18.2.0                   # npx create-react-app name
 │
 ├── react-dom: ^18.2.0               # for react virtual dom feature
 │
-├── react-icons: ^5.0.1
+├── react-icons: ^5.0.1               #for icons
 │
-├── react-loading-skeleton: ^3.4.0
+├── react-loading-skeleton: ^3.4.0    # for skeltition loading
 │
 ├── react-redux: ^9.1.0               #useselector , use dispatch
 │
 ├── react-router-dom: ^6.22.0         #used for navigation(conatain routes,route,link)
 │
-├── react-scripts: 5.0.1
+├── react-scripts: 5.0.1              #for shortforms
+│  
+├── react-scrollable-feed: ^2.0.1        # for smart scrooloing      
 │
-├── react-scrollable-feed: ^2.0.1
+├── react-toastify: ^10.0.4       #for notifications
 │
-├── react-toastify: ^10.0.4
-│
-├── redux: ^5.0.1
+├── redux: ^5.0.1                    #for state mangement
 │
 ├── socket.io-client: ^4.7.4         # for real time use , without this we have to refresh again
 │
-└── web-vitals: ^2.1.4
+└── web-vitals: ^2.1.4               
 ```
 
 ## Backend Dependencies
