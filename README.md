@@ -52,9 +52,9 @@ Frontend Dependencies/
 │
 ├── gapi-script: ^1.2.0
 │
-├── react: ^18.2.0
+├── react: ^18.2.0                   # npx create-react-app name
 │
-├── react-dom: ^18.2.0
+├── react-dom: ^18.2.0               # for react virtual dom feature
 │
 ├── react-icons: ^5.0.1
 │
@@ -62,7 +62,7 @@ Frontend Dependencies/
 │
 ├── react-redux: ^9.1.0
 │
-├── react-router-dom: ^6.22.0
+├── react-router-dom: ^6.22.0         #used for navigation(conatain routes,route,link)
 │
 ├── react-scripts: 5.0.1
 │
@@ -72,7 +72,7 @@ Frontend Dependencies/
 │
 ├── redux: ^5.0.1
 │
-├── socket.io-client: ^4.7.4
+├── socket.io-client: ^4.7.4         # for real time use , without this we have to refresh again
 │
 └── web-vitals: ^2.1.4
 ```
