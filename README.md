@@ -24,7 +24,7 @@ Project Dependencies/
 ```
 Frontend Dependencies/
 │
-├── @chakra-ui/react: ^2.8.2
+├── @chakra-ui/react: ^2.8.2  #framework for frontend
 │
 ├── @emoji-mart/data: ^1.1.2
 │
@@ -93,8 +93,6 @@ Backend Dependencies/
 ├── dotenv: ^16.4.5               # to keep safe file and used in deployment
 │
 ├── express: ^4.18.3              #it is a node framework for short syntax
-│
-├── google-auth-library: ^9.6.3
 │
 ├── jsonwebtoken: ^9.0.2          #it is a token so that server dont check user always
 │
