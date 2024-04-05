@@ -13,7 +13,7 @@ Project Dependencies/
 │
 ├── @reduxjs/toolkit: ^2.2.3  # easier to right redux reducers
 │
-├── react-redux: ^9.1.0
+├── react-redux: ^9.1.0       #useselector , use dispatch
 │
 ├── react-toastify: ^10.0.4
 │
@@ -60,7 +60,7 @@ Frontend Dependencies/
 │
 ├── react-loading-skeleton: ^3.4.0
 │
-├── react-redux: ^9.1.0
+├── react-redux: ^9.1.0               #useselector , use dispatch
 │
 ├── react-router-dom: ^6.22.0         #used for navigation(conatain routes,route,link)
 │
