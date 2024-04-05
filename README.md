@@ -11,13 +11,13 @@ Access the live application [here](https://text-z.netlify.app). or type => https
 ```
 Project Dependencies/
 │
-├── @reduxjs/toolkit: ^2.2.3
+├── @reduxjs/toolkit: ^2.2.3  # easier to right redux reducers
 │
 ├── react-redux: ^9.1.0
 │
 ├── react-toastify: ^10.0.4
 │
-└── redux: ^5.0.1
+└── redux: ^5.0.1             #used for statemangment
 ```
 
 ## Frontend Dependencies
@@ -44,7 +44,7 @@ Frontend Dependencies/
 │
 ├── @testing-library/user-event: ^13.5.0
 │
-├── axios: ^1.6.7
+├── axios: ^1.6.7                    #used for getting data inside frontend
 │
 ├── emoji-mart: ^5.5.2
 │
@@ -96,9 +96,9 @@ Backend Dependencies/
 │
 ├── jsonwebtoken: ^9.0.2          #it is a token so that server dont check user always
 │
-├── mongodb: ^6.4.0
+├── mongodb: ^6.4.0               #used to make and connect schemas
 │
-├── mongoose: ^8.2.0
+├── mongoose: ^8.2.0              #used to connect to mongodb
 │
 └── socket.io: ^4.7.4             # for real time use , without this we have to refresh again
 ```
