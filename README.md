@@ -82,9 +82,9 @@ Frontend Dependencies/
 ```
 Backend Dependencies/
 │
-├── bcrypt: ^5.1.1
+├── bcrypt: ^5.1.1    #it uses c++ for encryption
 │
-├── bcryptjs: ^2.4.3
+├── bcryptjs: ^2.4.3   #it uses js for encryption
 │
 ├── body-parser: ^1.20.2
 │
