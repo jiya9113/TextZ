@@ -36,8 +36,6 @@ Frontend Dependencies/
 │
 ├── @mui/material: ^5.15.12
 │
-├── @react-oauth/google: ^0.12.1
-│
 ├── @testing-library/jest-dom: ^5.17.0
 │
 ├── @testing-library/react: ^13.4.0
@@ -49,8 +47,6 @@ Frontend Dependencies/
 ├── emoji-mart: ^5.5.2
 │
 ├── framer-motion: ^11.0.8
-│
-├── gapi-script: ^1.2.0
 │
 ├── react: ^18.2.0                   # npx create-react-app name
 │
