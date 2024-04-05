@@ -13,28 +13,28 @@ Project Dependencies/
 │
 ├── @reduxjs/toolkit: ^2.2.3  # easier to right redux reducers
 │
-├── react-redux: ^9.1.0       #useselector , use dispatch
+├── react-redux: ^9.1.0       # useselector , use dispatch
 │
 ├── react-toastify: ^10.0.4   # used to show messages , it is a library for ui
 │
-└── redux: ^5.0.1             #used for state mangment
+└── redux: ^5.0.1             # used for state mangment
 ```
 
 ## Frontend Dependencies
 ```
 Frontend Dependencies/
 │
-├── @chakra-ui/react: ^2.8.2  #framework for frontend
+├── @chakra-ui/react: ^2.8.2         #framework for frontend
 │
 ├── @emoji-mart/data: ^1.1.2         #emojies in chat , emojie picker for the web
 │
-├── @emoji-mart/react: ^1.1.1 #react wraper for emojie mart
+├── @emoji-mart/react: ^1.1.1        #react wraper for emojie mart
 │
-├── @emotion/react: ^11.11.4  #styling in react
+├── @emotion/react: ^11.11.4         #styling in react
 │
-├── @emotion/styled: ^11.11.0       #styled api for @emotion/react
+├── @emotion/styled: ^11.11.0        #styled api for @emotion/react
 │
-├── @mui/material: ^5.15.12         #ui library, for google material 
+├── @mui/material: ^5.15.12          #ui library, for google material 
 │
 ├── @testing-library/jest-dom: ^5.17.0 
 │
@@ -62,9 +62,9 @@ Frontend Dependencies/
 │
 ├── react-scripts: 5.0.1              #for shortforms
 │  
-├── react-scrollable-feed: ^2.0.1        # for smart scrooloing      
+├── react-scrollable-feed: ^2.0.1     # for smart scrooloing      
 │
-├── react-toastify: ^10.0.4       #for notifications
+├── react-toastify: ^10.0.4          #for notifications
 │
 ├── redux: ^5.0.1                    #for state mangement
 │
