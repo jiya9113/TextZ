@@ -88,21 +88,21 @@ Backend Dependencies/
 │
 ├── body-parser: ^1.20.2
 │
-├── cors: ^2.8.5          #to allow request from another server
+├── cors: ^2.8.5                  #to allow request from another server
 │
-├── dotenv: ^16.4.5
+├── dotenv: ^16.4.5               # to keep safe file and used in deployment
 │
-├── express: ^4.18.3
+├── express: ^4.18.3              #it is a node framework for short syntax
 │
 ├── google-auth-library: ^9.6.3
 │
-├── jsonwebtoken: ^9.0.2
+├── jsonwebtoken: ^9.0.2          #it is a token so that server dont check user always
 │
 ├── mongodb: ^6.4.0
 │
 ├── mongoose: ^8.2.0
 │
-└── socket.io: ^4.7.4
+└── socket.io: ^4.7.4             # for real time use , without this we have to refresh again
 ```
 
 ## Loading
